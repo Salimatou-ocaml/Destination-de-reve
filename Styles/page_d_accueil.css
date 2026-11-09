@@ -1,0 +1,146 @@
+/* ---- Style général ---- */
+body {
+    font-family: "Times New Roman", sans-serif;
+    background-color: paleturquoise;
+    color: black;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1  {
+    text-align: center;
+
+}
+
+/* ---- HEADER ---- */
+header > div {
+    text-align: center;
+    background-color:black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 20px;
+}
+
+/* ---- SECTIONS PRINCIPALES ---- */
+div {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+/* ---- Sélecteurs de DESCENDANTS ---- */
+div h2 {
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+/* ---- Sélecteurs d'ÉLÉMENTS ADJACENTS ---- */
+h2 + h3 {
+    color: dodgerblue;
+    margin-top: 10px;
+}
+
+/* ---- LISTES ---- */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+/* ---- Sélecteurs d'ENFANTS ---- */
+ul > li {
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
+
+/* ---- Sélecteurs via les ATTRIBUTS (autres que id et class) ---- */
+a[href^="mailto:"] {
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a[target="_blank"] {
+    text-decoration: dashed underline;
+}
+
+/* ---- Sélecteurs via les PSEUDO-CLASSES ---- */
+ul li:first-child {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* ---- Sélecteurs via les PSEUDO-ÉLÉMENTS ---- */
+p::first-line {
+    color: black;
+}
+
+li::before {
+    content: "• ";
+    color: black;
+    font-weight: bold;
+}
+
+/* ---- FOOTER ---- */
+footer {
+    text-align: center;
+    background-color: darkslateblue;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ---- IMAGE ---- */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* ---- Sélecteurs via les PSEUDO-CLASSES pour les images ---- */
+img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+/* ---- SELECTION TEXTUELLE ---- */
+::selection {
+    background-color: cadetblue;
+    color: white;
+}
+

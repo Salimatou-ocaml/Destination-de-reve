@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "collection.dtd">
+<collection>
+    <country id="Nmb">
+        <name>grece</name>
+
+        <visa vaccin="non">Non requis pour les citoyens de l'UE</visa>
+
+        <superficie>
+            <terre> 130 647 km²</terre>
+            <eau>1 310 km²</eau>
+        </superficie>
+
+        <population>
+            <total_pop>10 263 298 (en 2025)</total_pop>
+            <croissance>-0,38%</croissance>
+        </population>
+
+        <langues>
+            <langue officielle="oui">Grec</langue>
+            <langue officielle="non"> anglais</langue>
+
+        </langues>
+
+        <tourist_sites>
+
+            <site type="naturel">
+                <nom>Acropole d'Athènes</nom>
+                <ville> Athènes </ville>
+                <image>
+                    <illustration href="https://example.com/acropole_athenes.jpg" alt="Acropole d'Athènes" width="500"/>
+                    <legende> </legende>
+                </image>
+            </site>
+            <site type="historique">
+                <nom>Météores </nom>
+                <ville>Thessalie</ville>
+                <image >
+                    <illustration href="https://example.com/meteores.jpg" alt="Météores" width="500"/>
+                    <legende> </legende>
+                </image>
+            </site>
+            <site type="historique">
+                <nom>Île de Santorin</nom>
+                <ville>Santorin</ville>
+                <image >
+                    <illustration href="https://example.com/santorin.jpg" alt="Île de Santorin" width="500"/>
+                    <legende> </legende>
+                </image>
+            </site>
+        </tourist_sites>
+
+        <historical_facts>
+            <figure_historique>
+                <nom_historique>Alexandre le Grand</nom_historique>
+                <periode debut="" fin="" >de -356 à -323 (Période de conquêtes)</periode>
+                <contribution>
+                Roi de Macédoine et conquérant, il créa un empire allant jusqu’à l’Inde.
+                Promoteur de l’hellénisme, il fonda de nombreuses villes comme Alexandrie,
+                favorisant les échanges culturels entre Orient et Occident.
+                </contribution>
+                <image>
+                    <illustration href="../../Images/Alexandre.jpeg" alt="Alexandre le Grand" width="500"/>
+                    <legende> </legende>
+                </image>
+            </figure_historique>
+            <figure_historique>
+                <nom_historique>Platon</nom_historique>
+                <periode fin="" debut=""> de -356 à -323 (Période antique) </periode>
+                <contribution>
+                    Philosophe influent, fondateur de l’Académie d’Athènes. Il développa la théorie des idées,
+                    écrivit des dialogues socratiques et marqua profondément la philosophie occidentale.
+
+            </contribution>
+                <image>
+                    <illustration href="../../Images/Platon.jpg" alt="Platon" width="500"/>
+                    <legende> </legende>
+                </image>
+            </figure_historique>
+            <figure_historique>
+                <nom_historique>Périclès</nom_historique>
+                <periode debut="" fin=""> de -495 à -429 (Période classique)</periode>
+                <contribution>
+                    Homme d’État athénien, il renforça la démocratie et lança la construction de monuments comme
+                    le Parthénon. Sous son impulsion, Athènes devint un centre majeur des arts et de la pensée.
+
+            </contribution>
+                <image>
+                    <illustration href="../../Images/Périclès.jpg" alt="Île de Santorin" width="500"/>
+                    <legende> </legende>
+                </image>
+            </figure_historique>
+        </historical_facts>
+    </country>
+</collection>

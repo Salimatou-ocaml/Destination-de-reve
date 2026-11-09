@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "collection.dtd">
+<collection>
+    <country id="tr">
+        <name>🇹🇷 Turquie</name>
+
+        <visa vaccin="non">Non requis pour les citoyens de l'UE</visa>
+
+        <superficie>
+            <total>783 562 km²</total>
+            <terre>769 604 km²</terre>
+            <eau>13 958 km²</eau>
+        </superficie>
+
+        <population>
+            <total_pop>87 700 000</total_pop>
+            <croissance>3,2%</croissance>
+        </population>
+
+        <langues>
+            <langue officielle="oui">Turc</langue>
+            <langue officielle="non">Anglais</langue>
+
+        </langues>
+
+        <tourist_sites>
+
+            <site type="naturel">
+                <nom>Cappadoce:</nom>
+                <ville>Göreme</ville>
+                <image>
+                    <illustration href="../../Images/cappadoce2.jpg"
+                                  alt="Cappadoce"  width="50"/>
+                    <legende> </legende>
+                </image>
+            </site>
+            <site type="historique">
+                <nom>Sainte Sophie (Ayasofya):</nom>
+                <ville> Istanbul</ville>
+                <image >
+                    <illustration href="../../Images/sainte_sophie.jpg" alt="Sainte Sophie (Ayasofya)" width="50"/>
+                    <legende> </legende>
+                </image>
+            </site>
+            <site type="historique">
+                <nom>Pamukkale :</nom>
+                <ville>Denizli </ville>
+                <image >
+                    <illustration href="../../Images/pamukkale-antalya.jpg" alt="Pamukkale" width="50" />
+                    <legende> </legende>
+                </image>
+            </site>
+        </tourist_sites>
+
+        <historical_facts>
+            <figure_historique>
+                <nom_historique>Suleiman le Magnifique (Kanuni Sultan Süleyman)</nom_historique>
+                <periode debut="1520" fin="1566" >(1520-1566)</periode>
+                <contribution>Sultan de l’Empire ottoman de 1520 à 1566,
+                    il a étendu le territoire impérial et instauré des réformes législatives majeures,
+                    consolidant le système juridique. Son règne est considéré comme l’apogée culturelle
+                    de l’Empire, avec un essor notable des arts et de l’architecture. </contribution>
+                <image>
+                    <illustration href="../Images/kanuni.sultan.süleyman.han_.jpg" alt="kanuni sultan suleyman" width="50"/>
+                    <legende>kanuni sultan suleyman</legende>
+                </image>
+            </figure_historique>
+            <figure_historique>
+                <nom_historique>Mevlana Jalal ad-Din Rumi</nom_historique>
+                <periode debut="1207" fin="1273" >(1207-1273)</periode>
+                <contribution>Poète et mystique persan, Rumi a vécu une grande partie de sa
+                    vie à Konya, en Anatolie. Ses œuvres, centrées sur l’amour divin et la quête spirituelle,
+                    ont profondément influencé la littérature et la pensée soufies. </contribution>
+                <image>
+                    <illustration href="../../Images/mevlana.jpg" alt="Mevlana Jalal ad-Din Rumi (1207-1273)" width="50"/>
+                    <legende>Mevlana Jalal ad-Din Rumi</legende>
+                </image>
+            </figure_historique>
+            <figure_historique>
+                <nom_historique>Mehmed II, Fatih Sultan Mehmet</nom_historique>
+                <periode debut="1432" fin="1481">(1432-1481) </periode>
+                <contribution>Sultan ottoman, il est célèbre pour avoir conquis
+                    Constantinople en 1453 a seulement 21 ans, marquant la fin de l’Empire byzantin. Il a transformé la ville
+                    en nouvelle capitale ottomane, favorisant sa reconstruction et son essor culturel. </contribution>
+           <image>
+               <illustration href="../../Images/fatih-sultan-mehmet.jpg" alt="Mehmed II (1432-1481)" width="50"/>
+               <legende>Fatih Sultan Mehmet</legende>
+           </image>
+            </figure_historique>
+        </historical_facts>
+    </country>
+</collection>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "collection.dtd">
+<collection>
+    <country id="JP">
+        <name>Japon</name>
+
+        <visa vaccin="non">Non requis pour les citoyens de l'UE</visa>
+
+        <superficie>
+            <terre>377975</terre>
+            <eau>4800</eau>
+        </superficie>
+
+        <population>
+            <total_pop>126800000</total_pop>
+            <croissance>-0.2</croissance>
+        </population>
+
+        <langues>
+            <langue officielle="oui">Japonais</langue>
+            <langue officielle="non">Anglais</langue>
+            <langue officielle="non">Okinawaïen</langue>
+            <langue officielle="non">Aïnou</langue>
+        </langues>
+
+        <tourist_sites>
+
+            <site type="naturel">
+                <nom>Mont Fuji</nom>
+                <ville>Fujinomiya</ville>
+                <image>
+                    <illustration href="https://example.com/mont_fuji.jpg" alt="Mont Fuji" width="500"/>
+                <legende> </legende>
+                </image>
+            </site>
+            <site type="historique">
+                <nom>Temple Kinkaku-ji</nom>
+                <ville>Kyoto</ville>
+                <image >
+                    <illustration href="https://example.com/kinkaku_ji.jpg" alt="Temple Kinkaku-ji" width="500"/>
+                <legende> </legende>
+                </image>
+            </site>
+            <site type="historique">
+                <nom>Château de Himeji</nom>
+                <ville>Himeji</ville>
+                <image >
+                    <illustration href="https://example.com/chateau_himeji.jpg" alt="Château de Himeji" width="500"/>
+                <legende> </legende>
+                </image>
+            </site>
+        </tourist_sites>
+
+        <historical_facts>
+            <figure_historique>
+                <nom_historique>Empereur Meiji</nom_historique>
+                <periode debut="1867" fin="1912">Ère Meiji</periode>
+                <contribution>Restauration de l'empire japonais et ouverture du Japon à l'Occident.</contribution>
+           <image>
+               <illustration href="../../Images/empreur-meji.png" alt="" width="50" />
+               <legende>Empereur Meiji</legende>
+           </image>
+            </figure_historique>
+            <figure_historique>
+                <nom_historique>Oda Nobunaga</nom_historique>
+                <periode debut="1534" fin="1582">Période Sengoku</periode>
+                <contribution>Unificateur du Japon au 16e siècle, il a joué un rôle clé dans la fin des guerres civiles.</contribution>
+           <image>
+               <illustration href="../../Images/Oda_Nobunaga.jpg" alt="" width="50"/>
+               <legende>Oda Nobunaga</legende>
+           </image>
+            </figure_historique>
+            <figure_historique>
+                <nom_historique>Tokugawa Ieyasu</nom_historique>
+                <periode debut="1543" fin="1616">Période Edo</periode>
+                <contribution>Fondateur du shogunat Tokugawa et instigateur de la période Edo, marquée par la paix et la stabilité.</contribution>
+            <image>
+                <illustration href="../../Images/Tokugawa.JPG" alt="" width="50"/>
+                <legende>Tokugawa Ieyasu</legende>
+            </image>
+            </figure_historique>
+        </historical_facts>
+    </country>
+</collection>

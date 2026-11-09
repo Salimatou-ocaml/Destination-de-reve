@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+    <title>
+        Grille d'évaluation du projet
+    </title>
+    <link rel="stylesheet" type="text/css" media="all" title="style"
+          href="../../Styles/autoeval.css"/>
+</head>
+<body>
+
+<h1> Grille d'évaluation du projet</h1>
+<form action="http://voca2.univ-poitiers.fr/traitement.php"
+      method="post">
+
+    <p>
+        <label> Réussite (moyenne des pourcentages)</label>
+        <input name="average" id="average" type="text" value=""/>
+    </p>
+
+    <table id="autotable">
+        <thead>
+        <tr>
+            <th colspan="2"> Critères</th>
+            <th> État (entre 0 et 100% de réalisation)</th>
+            <th> Commentaires</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- GENERAL  -->
+        <tr>
+            <td rowspan="7">
+                <p>
+                    <span class="titre"> Général</span>
+                    <br/>
+                    <span class="baremep">
+                  Barème prévisionnel&#160;: 3 ou 4 points
+                </span>
+                </p>
+            </td>
+            <td>
+                <label for="gen1">
+                    Le site respecte l'arborescence demandée (cf pages 2 / 3 du
+                    sujet + archive fournie avec l'arborescence attendue) ou si
+                    l'organisation des fichiers est différente, elle a été validée
+                    par un enseignant
+                </label>
+            </td>
+            <td>
+                <input name="gen1" id="gen1" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td> oui l'arborescence est respectée et nous avons rajouté
+                un sous dossier qui contient les arbres des XML</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gen2">
+                    L'ensemble des fichiers demandés est fourni
+                </label>
+            </td>
+            <td>
+                <input name="gen1" id="gen2" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td> oui </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gen3">
+                    Des versions du projet ont été régulièrement rendues tout au
+                    long du semestre comme demandé (des retards ponctuels ne
+                    seront pas pénalisés)
+                </label>
+            </td>
+            <td>
+                <input name="gen3" id="gen3" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td> oui </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gen7">
+                    Dans chaque fichier, apparaît le nom du contributeur principal
+                    du fichier (ou les deux noms si le travail a réellement été fait
+                    à deux)
+                </label>
+            </td>
+            <td>
+                <input name="gen7" id="gen7" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td> oui </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gen4">
+                    Aucune bibliothèque (bootstrap, jQuery ou autre) n'est utilisée
+                </label>
+            </td>
+            <td>
+                <input name="gen4" id="gen4" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>non</td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="gen5">
+                    L'archive respecte les caractéristiques demandées (cf page 3 du
+                    sujet) et pensez à éviter les accents dans les noms de fichiers
+                </label>
+            </td>
+            <td>
+                <input name="gen5" id="gen5" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="gen6">
+                    Le thème du projet est respecté
+                </label>
+            </td>
+            <td>
+                <input name="gen6" id="gen6" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+
+
+        <!-- XML -->
+        <tr>
+            <td rowspan="8">
+                <p>
+                <span class="titre">
+                  XML
+                </span>
+                    <br/>
+                    <span class="baremep">
+                  Barème prévisionnel&#160;: 3 points
+                </span>
+                </p>
+            </td>
+            <td>
+                <label for="xml1">
+                    Le dossier XML contient un unique fichier DTD décrivant la
+                    structure des éléments de la collection
+                </label>
+            </td>
+            <td>
+                <input name="xml1" id="xml1" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="xml2">
+                    Le dossier XML contient un fichier XML par étudiant chacun
+                    décrivant un élément de la collection et respectant la DTD
+                    précédente.
+                </label>
+
+            </td>
+            <td>
+                <input name="xml2" id="xml2" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="xml3">
+                    Le dossier XML contient un fichier par étudiant contenant le
+                    dessin de l'arbre de sa page XML restreint aux nœuds éléments
+
+                </label>
+            </td>
+            <td>
+                <input name="xml3" id="xml3" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="xml4">
+                <span class="bonus"> utilisation d'une transformation XSLT pour
+                                     créer les fichiers HTML à partir des
+                                     fichiers XML
+                </span>
+                </label>
+            </td>
+            <td>
+                <input name="xml4" id="xml4" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>non</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="xml5"> Dans la structure XML, la balise racine a un
+                    ou
+                    plusieurs
+                    petits-enfants
+                </label>
+            </td>
+            <td>
+                <input name="xml5" id="xml5" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="xml6">
+                    Un élément XML (au moins) contient une suite d'éléments
+                    obligatoires (éventuellement présents en plusieurs
+                    exemplaires) avec un ordre prédéfini
+                </label>
+            </td>
+            <td>
+                <input name="xml6" id="xml6" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="xml7">
+                    Un ou plusieurs éléments sont facultatifs
+                </label>
+            </td>
+            <td>
+                <input name="xml7" id="xml7" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="xml8">
+                    Certains éléments contiennent d'autres éléments
+                </label>
+            </td>
+            <td>
+                <input name="xml8" id="xml8" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+
+        <!-- HTML -->
+        <tr>
+            <td rowspan="8">
+                <p>
+                    <span class="titre"> HTML</span>
+                    <br/>
+                    <span class="baremep">
+                  Barème prévisionnel&#160;: 4 points
+                </span>
+                </p>
+            </td>
+            <td>
+                <label for="html1">
+                    Fichiers HTML attendus (s'il y en a d'autres ce n'est pas un
+                    problème, mais les fichiers listés ci-dessous doivent être dans
+                    votre site)&#160;:
+                </label>
+                <ul>
+                    <li> index.xhtml (à la racine de votre site)</li>
+                    <li>les fiches de la collection&#160;: 2 par étudiant (dans le
+                        répertoire <code>Content/Collection</code>)
+                    </li>
+                    <li>le fichier de présentation des auteurs
+                        (<code>authors.xhtml</code> dans le répertoire <code>Content/Miscellaneous</code>)
+                    </li>
+                    <li> le fichier rassemblant les sources bibliographiques
+                        (<code>sources.xhtml</code> le répertoire <code>Content/Miscellaneous</code>)
+                    </li>
+                    <li> 1 formulaire par étudiant (dans le répertoire <code>Content/Forms</code>)
+                    </li>
+                </ul>
+
+            </td>
+            <td>
+                <input name="html1" id="html1" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui, on a tous les fichiers nécessaires</td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="html2">
+                    Les fichiers HTML sont bien indentés
+                </label>
+            </td>
+            <td>
+                <input name="html2" id="html2" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="html3">
+                    Les noms des fichiers ont comme extension <code>.xhtml</code>
+                    et toutes les pages HTML passent le validateur (
+                    <a href="https://validator.w3.org/nu/">
+                        https://validator.w3.org/nu/
+                    </a>
+                    ) avec succès
+                </label>
+            </td>
+            <td>
+                <input name="html3" id="html3" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="html4">
+                    Le fichier index.xhtml contient a minima&#160;:
+                </label>
+                <ul>
+                    <li> un titre de niveau 1</li>
+                    <li> un texte de présentation</li>
+                    <li> une ou plusieurs images</li>
+                    <li>des liens vers des pages de votre site</li>
+                    <li> un lien qui permet de vous envoyer un email</li>
+                </ul>
+            </td>
+            <td>
+                <input name="html4" id="html4" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="html5">
+                    Les fichiers HTML correspondant aux fiches&#160;:
+                </label>
+                <ul>
+                    <li>contiennent au moins une image</li>
+                    <li>possèdent bien la même structure (le même DOM)</li>
+                    <li>contiennent des liens vers d'autres pages de votre site,
+                        par exemple la fiche suivante et la fiche précédente
+                        (attention à bien utiliser des liens relatifs)
+                    </li>
+                    <li>contiennent un lien vers la page <code>index.xhtml</code>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <input name="html5" id="html5" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="html6">
+                    Le fichier <code>authors.xhtml</code> contient un tableau
+                    avec une colonne par auteur et pour chacun&#160;:
+                </label>
+                <ul>
+                    <li> un mot dans un span</li>
+                    <li> un avatar, autrement dit une image</li>
+                    <li> un lieu géographique en SVG</li>
+                    <li> une devise dans une citation (q)</li>
+                    <li> un objet dans un span</li>
+                    <li> un emoji via son code UTF-8</li>
+                </ul>
+                <span class="sujet">
+                Cf. le sujet du projet pour tous les détails
+              </span>
+            </td>
+            <td>
+                <input name="html6" id="html6" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="html7">
+                    Le fichier <code>sources.xhtml</code> contient une liste de
+                    listes avec&#160;:
+                </label>
+                <ul>
+                    <li> les sources des images</li>
+                    <li> les sources des textes</li>
+                    <li> la documentation technique utilisée</li>
+                    <li> la ou les IA éventuellement utilisées</li>
+                </ul>
+                <span class="sujet">
+                Cf. le sujet du projet pour tous les détails
+              </span>
+            </td>
+            <td>
+                <input name="html7" id="html7" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="html8">
+                    Dans les formulaires&#160;:
+                </label>
+                <ul>
+                    <li>les attributs method et action de la balise &lt;form&gt;
+                        sont
+                        présents et l'attribut action a la valeur demandée.
+                    </li>
+                    <li> les labels sont liés correctement aux contrôles du
+                        formulaire
+                        (input, textarea, select etc) via leur attribut for et
+                        l'attribut id
+                        des contrôles
+                    </li>
+                    <li>les différents contrôles possèdent tous un attribut name
+                        (pour
+                        permettre de traiter les informations si on les envoie sur
+                        un
+                        serveur)
+                    </li>
+                    <li>les formulaires contiennent un bouton d'envoi</li>
+                </ul>
+
+            </td>
+            <td>
+                <input name="html8" id="html8" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+
+        <!-- Javascript / Typescript -->
+        <tr>
+            <td rowspan="13">
+                <p>
+                    <span class="titre"> Javascript / Typescript</span>
+                    <br/>
+                    <span class="baremep">
+                  Barème prévisionnel&#160;: 5 points
+                </span>
+                </p>
+
+            </td>
+            <td>
+                <label for="ts1">
+                    Votre ou vos fichier(s) javascript sont liés correctement à
+                    vos pages :
+                </label>
+                <br/>
+                <![CDATA[ <script
+          defer="defer" src="chemin relatif vers
+          votrefichier.js"></script> incluse dans <head></head>
+          ]]>
+            </td>
+            <td>
+                <input name="ts1" id="ts1" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ts2">
+                    Chaque fichier <code>JavaScript</code> provient d'un fichier
+                    <code>TypeScript</code> et ces fichiers sont bien rangés dans
+                    les répertoires prévus à cet effet.
+                </label>
+            </td>
+            <td>
+                <input name="ts2" id="ts2" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ts3">
+                    Votre code est bien indenté et commenté
+                </label>
+            </td>
+            <td>
+                <input name="ts3" id="ts3" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ts4" class="bonus">
+                    Votre code est modulaire, autrement dit découpé en plusieurs
+                    petites fonctions
+                </label>
+            </td>
+            <td>
+                <input name="ts4" id="ts4" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ts5">
+                    Date et heures sont affichées au chargement sur chacune de
+                    vos pages
+                </label>
+            </td>
+            <td>
+                <input name="ts5" id="ts5" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ts6">
+                    Un lien dans la page d'accueil amène sur une fiche de la
+                    collection choisie (pseudo-)aléatoirement.
+                </label>
+            </td>
+            <td>
+                <input name="ts6" id="ts6" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ts7">
+                    Un bouton pour passer d'un style à un autre est disponible
+                    sur chacune de vos pages.
+                </label>
+            </td>
+            <td>
+                <input name="ts7" id="ts7" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ts8">
+                    Un champ caché dans les formulaires est automatiquement mis à
+                    jour avec des informations sur le navigateur utilisé et
+                    l'information est associée au nom <code>userAgentInformations</code> sur le serveur.
+                </label>
+            </td>
+            <td>
+                <input name="ts8" id="ts8" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td>oui </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ts9">
+                    Des vérifications de saisies sont opérées dans le formulaire :
+                </label>
+                <ul>
+                    <li> au fur et à mesure de la saisie de
+                        l'internaute avec des messages d'erreurs explicites
+                    </li>
+                    <li> éventuellement aussi avec un bouton pour tester l'ensemble
+                        du formulaire
+                    </li>
+                </ul>
+
+
+            </td>
+            <td>
+                <input name="ts9" id="ts9" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label class="nsi" for="ts10">
+                    Le formulaire propose un bouton pour afficher un
+                    récapitulatif des données saisies dans la page elle-même.
+                    Celui-ci est précédé de la date et de l'heure auxquelles il a
+                    été demandé. Ceci doit être obtenu en modifiant dynamiquement le DOM de la
+                    page sans utiliser de bibliothèque JavaScript
+                </label>
+
+
+            </td>
+            <td>
+                <input name="ts10" id="ts10" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ts11">
+                    L'élément <code>input</code> d'identifiant <code>average
+                </code> contient la moyenne des valeurs des éléments <code>
+                    input</code> de type <code>range</code>. La valeur est mise à
+                    jour au chargement de la page et à chaque modification de valeur du curseur.
+                </label>
+
+
+            </td>
+            <td>
+                <input name="ts11" id="ts11" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ts12">
+                    Les couleurs du label présent dans la deuxième colonne du
+                    tableau sont mises à jour conformément au sujet lors du
+                    chargement de la page et lors du déplacement d'un des curseurs
+                </label>
+
+
+            </td>
+            <td>
+                <input name="ts12" id="ts12" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="nsi" for="ts13">
+                    Au chargement de la page, pour chaque <code>input</code> de
+                    type <code>range</code> un <code>span</code> est ajouté
+                    dynamiquement dans la même case du tableau que le <code>input
+                </code>. Le contenu du <code>span</code> et son évolution
+                    sont conformes au sujet.
+                </label>
+
+
+            </td>
+            <td>
+                <input name="ts13" id="ts13" step="5" type="range"
+                       min="0" max="100" value="100"/>
+            </td>
+            <td>oui</td>
+        </tr>
+        <!-- CSS -->
+        <tr>
+            <td rowspan="4">
+                <p>
+                    <span class="titre"> CSS </span>
+                    <br/>
+                    <span class="baremep">
+                  Barème prévisionnel&#160;: 5 points
+                </span>
+                </p>
+
+            </td>
+            <td>
+                <label for="c1">
+                    Deux styles sont associés à votre site : un style principal
+                    et un style alternatif pour quelqu'un avec des difficultés de
+                    vision. <br/>
+                    Ils peuvent partager des éléments communs à mettre dans un
+                    même fichier
+                </label>
+
+            </td>
+            <td>
+                <input name="c1" id="c1" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td>oui </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="c2">
+                    Pas (ou peu) de duplication de "code".
+                </label>
+
+
+            </td>
+            <td>
+                <input name="c2" id="c2" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td> on a pas très bien compris le critère  </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="c3">
+                    Vos fichiers CSS contiennent des commentaires notamment pour
+                    expliquer les sélecteurs complexes.
+                </label>
+
+
+            </td>
+            <td>
+                <input name="c3" id="c3" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td> oui </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="c4">
+                    Vos feuilles de style contiennent les types de sélecteurs
+                    demandés et le fichier <a
+                        href="../../Styles/styles.xhtml">styles.html
+                </a> est renseigné comme demandé dans l'énoncé.
+                </label>
+
+
+            </td>
+            <td>
+                <input name="c4" id="c4" step="5" type="range" min="0" max="100"
+                       value="100"/>
+            </td>
+            <td> oui </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <button type="submit">Envoyer</button>
+</form>
+<script src="../../Code/Javascript/projet.js"></script>
+<p> Salimatou Barry ,Elif Delice</p>
+</body>
+</html>

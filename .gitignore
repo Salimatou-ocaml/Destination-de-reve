@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# IntelliJ / JetBrains
+.idea/
+
+# Node.js
+node_modules/
+
+# Archives
+*.zip
+
+# Logs
+*.log

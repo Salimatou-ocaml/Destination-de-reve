@@ -1,0 +1,52 @@
+/* Style général pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Fusionne les bordures des cellules */
+}
+
+/* Bordure et padding pour chaque cellule */
+td, th {
+    border: 1px solid #000; /* Bordure noire autour de chaque cellule */
+    padding: 8px; /* Espacement à l'intérieur des cellules */
+    text-align: center; /* Centrer le texte dans chaque cellule */
+}
+
+/* Style spécifique pour l'en-tête du tableau */
+th {
+    background-color:lightblue; /* Couleur de fond pour les en-têtes */
+    font-weight: bold; /* Texte en gras dans les en-têtes */
+}
+
+/* Style pour la première cellule de chaque ligne */
+td:first-child {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Hauteur des lignes */
+tr {
+    height: 40px; /* Hauteur des lignes */
+}
+
+/* Style pour les lignes vides */
+tr td:empty {
+    height: 2px;
+    line-height: 2px;
+}
+
+/* Alternance de couleur pour les lignes paires */
+tr:nth-child(even) {
+    background-color:lightsalmon;
+}
+
+/* Survol des lignes */
+tr:hover {
+    background-color: lightcoral; /* Fond légèrement grisé au survol */
+}
+tbody:hover{
+    background-color: lightblue;
+
+}
+body{
+    background-color: lightsteelblue;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations de rêves</title>
+    <script src="../../Code/Javascript/projet.js"> </script>
+    <link rel="stylesheet" href="../../Styles/page_d_accueil.css" title="principal">
+    <link rel="alternate stylesheet" href="../../Styles/alt-style.css" title="alternatif" />
+    <link rel="stylesheet" href="../../Styles/commun.css"/>
+  </head>
+  <body onload="displayDateAndHour()">
+   <a href="#" id="random-link">Voir une fiche au hasard</a>
+
+   <p>Clique sur le bouton pour changer le style.</p>
+
+   <button onclick="toggleStyle()">Changer de style</button>
+
+   <div id="date-time-container" aria-label="Date et heure actuelles">
+   </div>
+
+     <header>
+      <h1>Bienvenue dans les 4 merveilles du monde   </h1>
+
+     </header>
+
+
+     <section id="grece">
+       <div class="container">
+          <h1>Voyage parmis nos 4 destinations de rêves</h1>
+           <img src="../../Images/voyage.jpeg" alt="voyage">
+
+        <div class="destination">
+         <h2>🇬🇷 Grèce : Entre Antiquité et Mer Égée</h2>
+         <img src="https://source.unsplash.com/600x400/?greece" alt="Paysage de Grèce"/>
+         <p>Avec ses villages blancs perchés sur des falaises, ses vestiges antiques et ses plages aux eaux cristallines,
+          la Grèce séduit autant les amateurs de culture que ceux en quête de détente. Athènes vous plonge dans l’histoire
+           avec l’Acropole, tandis que Santorin et Mykonos offrent un cadre idyllique pour profiter du soleil. Entre une
+           moussaka et un verre d’ouzo en terrasse, la douceur de vivre grecque opère son charme.
+         </p>
+        </div>
+       <ul>
+         <li><a href="grece.xhtml">Informations sur la Grèce</a></li>
+       </ul>
+     </section> <!-- nous n'avons pas compris pourquoi il y a une erreur dans la fermeture de la balise section -->
+
+
+    <section id="japon">
+      <div class="container">
+        <div class="destination">
+           <h2>🇯🇵 Japon : Tradition et Modernité</h2>
+             <img src="https://source.unsplash.com/600x400/?japan" alt="Paysage du Japon"/>
+             <p>À des milliers de kilomètres, le Japon fascine par son contraste entre traditions ancestrales et avancées
+             technologiques. À Tokyo, les gratte-ciels côtoient les temples cachés, et chaque quartier a son ambiance. Kyoto,
+              plus paisible, dévoile ses sanctuaires et jardins zen, tandis que la campagne japonaise, entre forêts et
+             montagnes, offre des paysages apaisants. Côté gastronomie, du ramen aux sushis, les saveurs sont aussi variées
+              que surprenantes.
+              Que vous soyez attiré par le bleu éclatant de la mer Égée ou par l’atmosphère feutrée d’un temple japonais,
+               ces deux destinations promettent un voyage riche en découvertes.</p> </div>
+            <ul>
+              <li><a href="japon.xhtml">Informations sur le Japon</a></li>
+            </ul>
+        </div>
+       </div>
+    </section>
+
+    <section id = "namibie">
+      <div class="container">
+       <div class="destination">
+
+        <h2>🇳🇦 Namibie : Aventure et nature sauvage</h2>
+         <img src="https://source.unsplash.com/600x400/?namibia,safari" alt="Paysage de Namibie"/>
+         <p>Située au sud-ouest de l’Afrique, la Namibie est une destination pour les aventuriers. Le désert du Namib, avec
+          ses dunes rouges spectaculaires, s'étend à perte de vue, tandis que le parc d’Etosha abrite une faune riche :
+          lions, éléphants, girafes… Les amateurs de nature y trouveront leur bonheur, dans un cadre à la fois aride,
+          puissant et inoubliable.
+         </p>
+       </div>
+       <ul>
+        <li><a href="namibie.xhtml">Informations sur la Namibie</a></li>
+       </ul>
+      </div>
+
+    </section>
+
+    <section id="turquie">
+      <div class="container">
+
+        <div class="destination">
+          <h2> 🇹🇷 Turquie : Histoire fascinante et Beauté naturelle</h2>
+          <img  alt = "Paysage de la Turquie"/>
+          <p>La Turquie est un véritable carrefour entre l’Orient et l’Occident,
+            où l’histoire millénaire se mêle à une culture vibrante et des paysages
+           à couper le souffle. Des ruines antiques de Pompéi à la splendeur d’Istanbul,
+            entre mosquées majestueuses et marchés colorés, le pays vous invite à un voyage
+           fascinant. Les plages méditerranéennes, les montagnes du Caucase et la cuisine
+           délicieuse ajoutent encore au charme de cette destination unique.
+           Que vous soyez passionné par l’histoire, la nature ou la gastronomie,
+           la Turquie saura vous captiver et vous offrir une expérience inoubliable .
+         </p>
+        </div>
+        <ul>
+          <li><a href="turquie.xhtml">Informations sur la Turquie</a></li>
+         </ul>
+       </div>
+       <nav>
+         <ul>
+           <li> <a href="../Forms/Formulaire1.xhtml"> Accès au formulaire </a></li>
+         </ul>
+       </nav>
+    </section>
+
+
+
+     <footer>
+       <p>&copy; 2025 Tourisme en Grèce, Japon ,Turquie ,Namibie -Salimatou Barry, Elif Delice</p>
+       <ul>
+         <li><a href="mailto:salimatou.barry@etu.univ-poitiers.fr"> salimatou.barry@etu.univ-poitiers.fr </a> </li>
+         <li><a href="mailto:elif.delice@etu.univ-poitiers.fr"> elif.delice@etu.univ-poitiers.fr </a> </li>
+         <li><a href="../Miscellaneous/authors.xhtml">Accès à nos portraits chinois</a></li>
+         <li><a href = "../Miscellaneous/sources.xhtml">Accès aux sources </a></li>
+         <li><a href="../Miscellaneous/autoeval.xhtml"> Accès à l'auto-éval </a> </li>
+       </ul>
+
+     </footer>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Conteneur principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px gray;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    background-color: SteelBlue;
+    color: white;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Titres des sections */
+h2 {
+    color: SteelBlue;
+    font-size: 1.5rem;
+    border-bottom: 2px solid SteelBlue;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Liens */
+a {
+    color: SteelBlue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hiérarchie des listes */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* Indentation pour hiérarchie */
+ul li {
+    margin-left: 20px;
+}
+
+/* Lien entre frères et soeurs */
+ul li + li {
+    margin-top: 10px;
+    margin-left: 40px; /* Décalage plus important entre frères et soeurs */
+}
+
+/* Première entrée (Premier fils) */
+ul li:first-child {
+    font-weight: bold;
+    color: DarkOrange; /* Couleur distincte pour le premier fils */
+}
+
+/* Code */
+code {
+    background-color: LightGray;
+    padding: 3px 6px;
+    font-family: monospace;
+    border-radius: 4px;
+}

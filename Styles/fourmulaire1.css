@@ -1,0 +1,77 @@
+body {
+        background-color: lightsteelblue;
+        background-image: url('../Images/Av.jpeg');
+        background-size: cover;
+        background-position: center;
+        font-weight: bold;
+        font-family: "Times New Roman", sans-serif; /* Texte général plus sombre pour contraster avec le fond */
+}
+
+h1 {
+        font-weight: bold;
+        color: royalblue; /* Bleu plus profond */
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+}
+
+/*est un sélecteur adjacent combiné. Il sélectionne le premier élément
+<p> qui suit immédiatement un élément */
+h1 + p {
+        color: brown; /* Orange vif pour une touche dynamique */
+        font-size: 1.2em;
+        text-align: center;
+}
+
+input {
+        color: mediumvioletred; /* Violet doux pour le texte dans les champs */
+        padding: 8px;
+        border: 2px solid indigo;
+        border-radius: 4px;
+        font-size: 1em;
+        width: 80%;
+        margin: 5px 0;
+        box-sizing: border-box;
+}
+
+input:focus {
+        border-color: brown; /* Changer la bordure en orange vif au focus */
+        outline: none;
+}
+
+form > legend {
+        color: royalblue; /* Utilisation d'un bleu plus foncé pour les titres */
+        font-size: 1.3em;
+}
+
+fieldset {
+        border: 2px solid lightsteelblue;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+}
+
+
+button:hover {
+        background-color: orange; /* Changer au survol pour une touche dynamique */
+}
+
+button[type="reset"] {
+        background-color: red; /* Rouge pour le bouton 'Effacer' */
+}
+
+button[type="submit"] {
+        background-color: mediumseagreen; /* Vert pour le bouton 'Envoyer' */
+}
+
+footer {
+        color: white;
+}
+.label-conditions {
+        text-align: initial;
+        color:saddlebrown; /* Exemple de style spécifique */
+        font-style: italic;
+;
+}
+
+

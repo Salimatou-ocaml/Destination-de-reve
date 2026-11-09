@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+    <meta charset="UTF-8"/>
+    <script src="../../Code/Javascript/projet.js"> </script>
+    <title>Questionnaire Voyage</title>
+    <link rel="stylesheet" type="text/css" href="../../Styles/formulaire.css" media="screen" title="principal"/>
+     <link rel="alternate stylesheet" href="../../Styles/alt-style.css" title="alternatif" />
+
+
+ </head>
+ <body onload="displayDateAndHour()">
+
+   <p>Clique sur le bouton pour changer le style.</p>
+
+   <button onclick="toggleStyle()">Changer de style</button>
+
+   <div id="date-time-container" aria-label="Date et heure actuelles">
+   </div>
+
+  <h1> >Préparez votre prochain voyage</h1>
+
+  <form action="quizz.xhtml" method="post" id="formulaire-inscription">
+    <hr />
+    <fieldset>
+        <legend>Comment aimeriez-vous voyager ?</legend>
+        <p><input type="radio" id="seul" name="voyage_type" value="seul" /><label for="seul">Seul(e)</label></p>
+        <p><input type="radio" id="famille" name="voyage_type" value="famille" /><label for="famille">En Famille</label></p>
+        <p><input type="radio" id="amoureux" name="voyage_type" value="amoureux" /><label for="amoureux">En amoureux</label></p>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+        <legend>Pour quelle destination opteriez-vous ?</legend>
+        <p><input type="radio" id="grece" name="destination" value="grece" /><label for="grece">Grèce</label></p>
+        <p><input type="radio" id="japon" name="destination" value="japon" /><label for="japon">Japon</label></p>
+        <p><input type="radio" id="turquie" name="destination" value="turquie" /><label for="turquie">Turquie</label></p>
+        <p><input type="radio" id="namibie" name="destination" value="namibie" /><label for="namibie">Namibie</label></p>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+        <legend>Quels sont vos loisirs préférés ?</legend>
+        <p><input type="checkbox" id="parc" name="loisirs" value="parc" /><label for="parc">Parc d'attractions</label></p>
+        <p><input type="checkbox" id="musees" name="loisirs" value="musees" /><label for="musees">Musées</label></p>
+        <p><input type="checkbox" id="plage" name="loisirs" value="plage" /><label for="plage">Plage</label></p>
+        <p><input type="checkbox" id="randonnees" name="loisirs" value="randonnees" /><label for="randonnees">Randonnées</label></p>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+        <legend>Quels moyens de transport préférez-vous ?</legend>
+        <p><input type="checkbox" id="avion" name="transport" value="avion" /><label for="avion">Avion</label></p>
+        <p><input type="checkbox" id="train" name="transport" value="train" /><label for="train">Train</label></p>
+        <p><input type="checkbox" id="voiture" name="transport" value="voiture" /><label for="voiture">Voiture</label></p>
+        <p><input type="checkbox" id="bateau" name="transport" value="bateau" /><label for="bateau">Bateau</label></p>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+        <legend>Quel budget prévoyez-vous ?</legend>
+        <p>
+            <label for="budget">Choisissez un budget :</label>
+            <select id="budget" name="budget">
+                <option value="">-- Sélectionnez --</option>
+                <option value="petit">Moins de 500€</option>
+                <option value="moyen">Entre 500€ et 1000€</option>
+                <option value="grand">Plus de 1000€</option>
+            </select>
+        </p>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+        <legend>Gestion du formulaire</legend>
+        <p><button type="reset">Effacer</button><button type="submit">Envoyer</button></p>
+    </fieldset>
+      <input type="hidden" id="userAgentInformations" name="userAgentInformations"/>
+      <button type="button" id="test-validite">Tester la validité</button>
+
+  </form>
+  <ul>
+      <li><a href="../Collection/index.html">Retour sur la page d'accueil</a></li>
+  </ul>
+  <p> Salimatou Barry ,Elif Delice</p>
+ </body>
+</html>

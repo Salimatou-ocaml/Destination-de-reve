@@ -1,0 +1,12 @@
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    font-weight: bold;
+}
+
+tr > td:last-child {
+    font-family: "Courier New", Courier, monospace;
+}

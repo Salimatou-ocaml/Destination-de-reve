@@ -1,0 +1,40 @@
+<!ELEMENT collection (country+)>
+        <!ELEMENT country (name, visa, superficie, population, langues, tourist_sites, historical_facts)>
+        <!ATTLIST country id ID #REQUIRED>
+
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT visa (#PCDATA)>
+        <!ATTLIST visa vaccin (oui|non) #REQUIRED>
+
+        <!ELEMENT superficie (#PCDATA,total,terre, eau)>
+        <!ELEMENT total (#PCDATA)>
+        <!ELEMENT terre (#PCDATA)>
+        <!ELEMENT eau (#PCDATA)>
+
+        <!ELEMENT population (#PCDATA,total_pop, croissance)>
+        <!ELEMENT total_pop (#PCDATA)>
+        <!ELEMENT croissance (#PCDATA)>
+
+        <!ELEMENT langues (langue+)>
+        <!ELEMENT langue (#PCDATA)>
+        <!ATTLIST langue officielle (oui|non) #REQUIRED>
+
+        <!ELEMENT tourist_sites (site+)>
+        <!ELEMENT site (nom, ville,image)>
+        <!ATTLIST site type (naturel|historique) #REQUIRED>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT ville (#PCDATA)>
+
+        <!ELEMENT historical_facts (figure_historique+)>
+        <!ELEMENT figure_historique (nom_historique, periode, contribution,image)>
+        <!ELEMENT nom_historique (#PCDATA)>
+        <!ELEMENT periode (#PCDATA)>
+        <!ATTLIST periode debut CDATA #REQUIRED fin CDATA #REQUIRED>
+        <!ELEMENT contribution (#PCDATA)>
+
+        <!-- Ajout des éléments pour les images -->
+        <!ELEMENT image (illustration,legende)>
+        <!ELEMENT illustration EMPTY>
+        <!ATTLIST illustration href CDATA #REQUIRED alt CDATA #REQUIRED width CDATA #REQUIRED>
+        <!ELEMENT legende (#PCDATA)>
+

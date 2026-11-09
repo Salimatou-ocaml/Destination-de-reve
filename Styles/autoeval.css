@@ -1,0 +1,61 @@
+table,tr,td,th{
+    border-collapse: collapse;
+    border : solid 1px black;
+}
+
+table {
+    width : 80%;
+    margin : auto;
+}
+
+thead th{
+    background-color:  white;
+}
+tbody td:last-child{
+    width : 30%
+}
+
+/* pour cibler les cellules <td> d'un <tbody> qui ont l'attribut rowspan.*/
+tbody td[rowspan]{
+    text-align: center;
+}
+
+/*est utilisé pour cibler la deuxième cellule ( <td>) à partir de la fin
+ dans chaque ligne d'un tableau à l'intérieur du <tbody>.*/
+tbody td:nth-last-child(2) {
+    text-align: center;
+}
+
+/*est utilisé pour cibler un élément <input> qui se trouve dans la deuxième cellule
+à partir de la fin (nth-last-child(2)) d'une ligne d'un tableau, à l'intérieur du <tbody>.*/
+tbody td:nth-last-child(2) input{
+    width : 80% ;
+}
+
+/*accéder a la classe dans une balise (un tableau)*/
+.baremep{
+    font-style: italic;
+    font-size : 0.65em;
+}
+
+.titre{
+    font-weight: bold;
+}
+
+.nsi::before{
+    content: "[Pour les étudiants des gps 4 et 5]";
+    font-weight: bold;
+    font-style: italic;
+    color : chocolate;
+    background-color: white;
+}
+
+/*::before : est un pseudo-élément qui ajoute du
+ contenu avant le contenu principal de l'élément sélectionné.*/
+.bonus::before{
+    content: "[bonus]";
+    font-weight: bold;
+    font-style: italic;
+    color : chocolate;
+    background-color: white;
+}

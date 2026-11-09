@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "collection.dtd">
+<collection>
+    <country id="Nmb">
+        <name>Namibie</name>
+
+        <visa vaccin="oui">Obligatoire pour les citoyens de l'UE</visa>
+
+        <superficie>
+            <terre> 825 418 km²</terre>
+            <eau>0</eau>
+        </superficie>
+
+        <population>
+            <total_pop>2 630 073</total_pop>
+            <croissance>+2,5%</croissance>
+        </population>
+
+        <langues>
+            <langue officielle="oui">Anglais</langue>
+            <langue officielle="non">oshiwambo</langue>
+
+        </langues>
+
+        <tourist_sites>
+
+            <site type="naturel">
+                <nom>Parc national d'Etosha</nom>
+                <ville> région du Kunene </ville>
+                <image>
+                    <illustration href="https://www.etoshanationalpark.org/fr/wp-content/uploads/2022/03/2E1A8662-100.jpg "
+                                  alt="Parc national d'etosha" width="500"/>
+                    <legende> </legende>
+                </image>
+            </site>
+            <site type="historique">
+                <nom>Grotte de Ghaub </nom>
+                <ville>region oshikoto </ville>
+                <image >
+                    <illustration href="https://commons.wikimedia.org/wiki/File:Namibia_-_Ghaub_Cave_05.jpg?uselang=fr" alt="Grotte de Ghaub" width="500"/>
+                    <legende> </legende>
+                </image>
+            </site>
+            <site type="historique">
+                <nom>Monument at Kub</nom>
+                <ville>région de Hardap</ville>
+                <image >
+                    <illustration href="https://commons.wikimedia.org/wiki/File:Namibia_-_Monument_at_Kub_02.jpg?uselang=fr" alt="Monument at Kub" width="500"/>
+                    <legende> </legende>
+                </image>
+            </site>
+        </tourist_sites>
+
+        <historical_facts>
+            <figure_historique>
+                <nom_historique>Hendrik Witbooi</nom_historique>
+                <periode fin="" debut="" >De(1830 à 1905 )Chef des nama</periode>
+                <contribution>
+                    Figure de la résistance contre la colonisation Allemande.
+                    Il a mené des campagnes contre les forces coloniales avant d'être tué au combat.
+                    Il figure de nos jours sur les billets de banque namibiens.
+                </contribution>
+            </figure_historique>
+            <figure_historique>
+                <nom_historique>Samuel Maharero </nom_historique>
+                <periode fin="" debut="">De (1856 à 1923) chef des herero </periode>
+                <contribution>
+                    Il a dirigé la révolte Herero contre les Allemands en 1904 ,
+                    un événement tragique qui a mené au génocide des Herero et Nama (1904–1908).
+                    il mena une grosse lutte pour la survie et la dignité de son peuple
+                </contribution>
+            </figure_historique>
+            <figure_historique>
+                <nom_historique>Hosea kutako</nom_historique>
+                <periode fin=" " debut="" > De (1870 à 1970° Leader religieux et politique Herero</periode>
+                <contribution>Il a joué un rôle essentiel dans la lutte pour les droits civiques des
+                    Namibiens sous le mandat sud-africain. Il est l'un des premiers à demander
+                    l'indépendance de la Namibie aux Nations Unies.
+                </contribution>
+            </figure_historique>
+        </historical_facts>
+    </country>
+</collection>

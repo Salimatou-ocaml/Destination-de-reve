@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+ <head>
+    <title>Fiche d'Accueil - Quizz</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../../Styles/fourmulaire1.css" title="principal"/>
+     <link rel="alternate stylesheet" href="../../Styles/alt-style.css" title="alternatif" />
+
+ </head>
+ <body>
+  <h1>Bienvenue sur notre Quizz</h1>
+
+<!-- Introduction -->
+   <p>Avant de commencer le quizz, remplissez ce formulaire rapide pour valider votre participation.</p>
+
+<!-- Formulaire d'inscription -->
+  <form action="quizz.xhtml" method="post" id="formulaire-inscription">
+    <fieldset>
+        <legend>Informations personnelles</legend>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" />
+        <span id="messagePrenom"></span>
+        <br/><br/>
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" />
+        <span id="messageNom"></span>
+        <br/><br/>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email"/>
+        <span id="messageEmail"></span>
+        <br/><br/>
+
+        <label for="age">Âge :</label>
+        <input type="number" id="age" name="age" />
+        <span id="messageAge"></span>
+        <br/><br/>
+
+        <label for="accepte" class="label-conditions">
+            J'accepte les conditions générales.
+            <input type="checkbox" id="accepte" name="accepte"/>
+
+        </label>
+        <br/><br/>
+    </fieldset>
+    <input type="hidden" id="userAgentInformations" name="userAgentInformations"/>
+    <button type="button" id="test-validite">Tester la validité</button>
+    <button type="submit" id="submitButton">S'inscrire</button>
+    <ul>
+        <li> <a href="formulaire.xhtml">Commencer le Quizz </a> </li>
+    </ul>
+  </form>
+
+
+
+<!-- Footer -->
+  <footer>
+    <p>© 2025 Quizz de Culture Générale - Tous droits réservés.</p>
+  </footer>
+
+
+
+  <p> Salimatou Barry ,Elif Delice</p>
+ </body>
+</html>

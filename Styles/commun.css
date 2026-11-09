@@ -1,0 +1,58 @@
+body{
+    font-family: "Times New Roman", sans-serif;
+    line-height: 1.6;
+    color : black;
+}
+
+h1 h2 {
+    text-align: center ;
+}
+
+/* ---- Paragraphes ---- */
+p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+p::first-line {
+    color: black;
+}
+
+
+
+/* ---- Images ---- */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 2px solid white;
+}
+
+
+
+/* ---- Style du texte ---- */
+strong {
+    font-weight: bold;
+    color: black;
+}
+li strong {
+    display: block;
+    font-size: 1.1em;
+}
+
+
+::selection {
+    background-color: cadetblue;
+    color:white;
+}
+
+div {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
